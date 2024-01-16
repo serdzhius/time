@@ -1,0 +1,28 @@
+@font-face {
+	font-family: 'Helvetica';
+	src: url('fonts/Helvetica.woff');
+}
+
+body {
+	font-family: 'Helvetica';
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+	background-color: #333;
+	color: #eee;
+}
+
+.clock-container {
+	margin-top: 15dvh;
+	text-align: center;
+}
+
+#time {
+	font-size: clamp(60px, 8vw, 180px);
+	margin-bottom: 5dvh;
+}
+
+#date {
+	font-size: clamp(28px, 5vw, 50px);
+}
