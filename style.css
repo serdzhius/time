@@ -7,7 +7,7 @@ body {
 	font-family: 'Helvetica';
 	display: flex;
 	justify-content: center;
-	height: 100vh;
+	height: 100dvh;
 	margin: 0;
 	background-color: #333;
 	color: #eee;
